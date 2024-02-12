@@ -124,5 +124,15 @@ ol {
     
   }
 
+  footer {
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid #e4e1e1;
+    height: 30px;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+
 
   
