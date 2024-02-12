@@ -1,0 +1,35 @@
+header, main, footer {
+        width: 72.5rem;
+        background-color: white;
+        margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #e4e1e1;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+header h1 {
+    margin-right: 20px;
+}
+
+header img , header h1{
+    padding-left: 20px;
+    padding-right: 10px;
+    color: #a55631;
+}
+
+header nav {
+    padding-left: 18rem;
+}
+
+header nav a {
+    margin-right: 30px; 
+    color: inherit;
+    
+}
+
