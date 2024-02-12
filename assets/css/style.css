@@ -39,7 +39,90 @@ header nav a {
     
 }
 
+main {
+  display: flex;
+  flex-direction: row;
+}
 
+.history {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.history h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.history img {
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.history p{
+  padding-bottom: 10px;
+}
+
+.other {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    margin-left: 200px;
+}
+
+.other , .gallery {
+  justify-content: space-around;
+}
+
+.other h2  {
+  display: flex;
+    border-bottom: 1px solid #e4e1e1;
+    
+    margin-right: 30px;
+    align-self: normal;
+}
+
+ol {
+  margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+  .gallery{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 5vw);
+    margin-right: 20px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+    }
+
+  .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+  }
+
+  .gallery__item{
+    transition: transform .1s;
+    padding: 2px;
+  }
+
+  .gallery__item:hover{
+    -ms-transform: scale(5);
+    -webkit-transform:scale(5);
+    transform: scale(5);
+    
+  }
 
 
   
